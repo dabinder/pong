@@ -1,0 +1,60 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Ball",
+            "id": "5e06e879-64aa-4e38-a07a-f33bc6030a1b",
+            "actions": [
+                {
+                    "name": "Launch",
+                    "type": "Button",
+                    "id": "cc022fe1-baa3-42e2-8524-0d63da0efafe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6b1ee3f-5c4d-4144-b112-9cc51550e325",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Launch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Paddle",
+            "id": "5b267451-cbf7-4b38-8360-af33aafd99b1",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "ae148085-63e8-4df9-9bb2-bbad9e51ae85",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5f7f106-9df5-48ea-b560-9d26eb80f719",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
