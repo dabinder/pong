@@ -2,6 +2,9 @@
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// manages the ball's motion on the playing field and flags when it enters a goal (scores)
+/// </summary>
 public class Ball : MonoBehaviour {
 	[SerializeField] private float speed;
 	[SerializeField] private UnityEvent<Scorer> OnScore;

@@ -1,6 +1,9 @@
 ﻿using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// runs the game and handles scoring updates
+/// </summary>
 public class GameManager : MonoBehaviour {
 	[SerializeField]
 	private GameObject ball;

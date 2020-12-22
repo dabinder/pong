@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// manages the player paddle control
+/// </summary>
 public class PlayerPaddle : MonoBehaviour {
 	/// <summary>
 	/// accept mouse movement input to move paddle along Y axis

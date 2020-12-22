@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// manages the AI paddle control
+/// </summary>
 public class AIPaddle : MonoBehaviour {
 	[SerializeField] private Transform target;
 	[SerializeField] private float speed;
